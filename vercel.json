@@ -1,0 +1,11 @@
+{
+  "buildCommand": "node build-vercel.js",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

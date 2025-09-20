@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "problem": "Problem",
+    "features": "Features", 
+    "demo": "Demo",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "language": "Language",
+    "live_allocation_engine": "Live Allocation Engine"
+  },
+  "hero": {
+    "tagline": "Government Metro System Solution",
+    "title": "Metro Yukthi",
+    "subtitle": "Train Induction Support System",
+    "description": "Automated nightly decision-making for Kochi Metro's 25 trainsets. Our AI-powered system optimizes which trains enter revenue service, remain on standby, or proceed to maintenance, ensuring maximum operational efficiency for government transit operations.",
+    "view_demo": "View Live Demo",
+    "contact_us": "Contact Us",
+    "get_started": "Get Started",
+    "demo_button": "Demo",
+    "network_title": "Kochi Metro Network",
+    "network_description": "Complete 16-station metro line with intelligent train allocation system",
+    "trainsets": "Trainsets",
+    "monitoring": "Monitoring",
+    "automated": "Automated"
+  },
+  "problem": {
+    "title": "Kochi Metro's Nightly Decision Challenge",
+    "subtitle": "Every night, complex decisions must be made about 25 trainsets across 6 critical variables without automated support.",
+    "manual_process": {
+      "title": "Manual Nightly Decision Process",
+      "description": "Kochi Metro manually decides every night which of its 25 four-car trainsets enter revenue service, remain on standby, or go to IBL maintenance.",
+      "impact": "Time-consuming process prone to human error"
+    },
+    "complex_dependencies": {
+      "title": "Complex Multi-Variable Dependencies", 
+      "description": "Six inter-dependent variables must be considered: Fitness Certificates, Job-Card Status, Branding Priorities, Mileage Distribution, Cleaning Schedules, and Depot Bay Availability.",
+      "impact": "Sub-optimal resource allocation and conflicts"
+    },
+    "no_optimization": {
+      "title": "No Automated Optimization",
+      "description": "Current process lacks automated optimization to balance operational readiness, maintenance requirements, and contractual obligations efficiently.",
+      "impact": "Missed optimization opportunities and operational inefficiencies"
+    }
+  },
+  "features": {
+    "title": "Core Solution Features",
+    "subtitle": "Four focused modules designed to automate and optimize nightly trainset allocation decisions.",
+    "data_integration": {
+      "title": "Unified Data Integration",
+      "description": "Automatically collect and validate data from all six critical sources: Fitness Certificates, Maximo Job-Cards, Branding, Mileage, Cleaning Schedules, and Bay Status.",
+      "capabilities": ["Real-time data sync", "Automated validation", "Source integration"]
+    },
+    "decision_engine": {
+      "title": "Smart Decision Engine", 
+      "description": "AI-powered optimization to determine optimal INDUCT/STANDBY/IBL allocation for all 25 trainsets based on operational constraints and priorities.",
+      "capabilities": ["Multi-variable optimization", "Constraint satisfaction", "Real-time processing"]
+    },
+    "automated_scheduling": {
+      "title": "Automated Scheduling",
+      "description": "Generate nightly operation plans that balance service readiness, maintenance requirements, and contractual obligations with minimal manual intervention.",
+      "capabilities": ["Automated planning", "Conflict resolution", "Priority balancing"]
+    },
+    "decision_explanations": {
+      "title": "Clear Decision Explanations",
+      "description": "Provide transparent reasoning for each trainset decision with clear explanations of why specific allocations were made.",
+      "capabilities": ["Decision transparency", "Visual explanations", "Audit trails"]
+    }
+  },
+  "demo": {
+    "title": "Live System Demonstration",
+    "subtitle": "Interactive demo showing real-time trainset allocation decisions",
+    "live_allocation_title": "Live Allocation Engine",
+    "live_allocation_description": "Watch the AI system make real-time decisions about train allocation",
+    "view_decision": "View Decision Flow",
+    "download_analysis": "Download Analysis Report",
+    "timing": "Demo runs nightly at 2:00 AM • Last execution: {{lastRun}} • Next run: {{nextRun}}"
+  },
+  "kpis": {
+    "title": "Measurable Impact",
+    "subtitle": "Quantifiable improvements in operational efficiency and decision-making speed",
+    "decision_time": {
+      "value": "95%",
+      "label": "Decision Time Reduction"
+    },
+    "accuracy": {
+      "value": "99.8%",
+      "label": "Allocation Accuracy"
+    },
+    "efficiency": {
+      "value": "40%", 
+      "label": "Operational Efficiency Gain"
+    },
+    "cost_savings": {
+      "value": "₹2.3M",
+      "label": "Annual Cost Savings"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about the Metro Yukthi system implementation",
+    "questions": {
+      "data_sources": {
+        "question": "What data sources does the system integrate with?",
+        "answer": "The system integrates with fitness certification databases, Maximo job-card systems, branding management platforms, mileage tracking systems, cleaning slot schedulers, and depot bay status monitors. It also includes synthetic data generation capabilities for testing and validation scenarios."
+      },
+      "deployment": {
+        "question": "What is the deployment model for the system?",
+        "answer": "The system is designed for on-premises deployment within secure government infrastructure. It operates as a containerized microservice architecture with nightly batch processing cycles and real-time monitoring capabilities. Cloud deployment options are available with appropriate security compliance."
+      },
+      "security": {
+        "question": "How does the system ensure data security and compliance?",
+        "answer": "The system implements end-to-end encryption, role-based access controls, audit logging, and compliance with government data protection standards. All ML models operate on anonymized datasets, and sensitive information is protected through advanced cryptographic methods."
+      },
+      "audit_trails": {
+        "question": "What audit trails and governance features are available?",
+        "answer": "Complete decision traceability with timestamped logs, explainable AI outputs showing decision rationale, change management workflows, approval processes for critical decisions, and comprehensive reporting dashboards for regulatory compliance and operational oversight."
+      },
+      "override_governance": {
+        "question": "Can operators override system recommendations and how is this governed?",
+        "answer": "Yes, operators can override recommendations through a structured workflow requiring justification, supervisor approval, and documented reasoning. All overrides are logged, tracked for pattern analysis, and incorporated into model learning cycles while maintaining human oversight authority."
+      },
+      "maximo_integration": {
+        "question": "How does the system integrate with existing Maximo infrastructure?",
+        "answer": "The system connects to Maximo through standard APIs and real-time data synchronization. It reads job-card status, maintenance schedules, and asset conditions while writing back recommendations and status updates. Custom integration adapters ensure seamless data flow and minimal disruption to existing workflows."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Government Solutions Team",
+    "subtitle": "Get in touch to discuss implementing Metro Yukthi for your transit authority",
+    "name": "Full Name",
+    "email": "Email Address", 
+    "phone": "Phone Number",
+    "organization": "Organization",
+    "message": "Message",
+    "send_message": "Send Message",
+    "success": "Message sent successfully!",
+    "disclaimer": "By submitting this form, you agree to be contacted regarding Metro Yukti. Your information will be handled in accordance with government privacy standards and will not be shared with third parties."
+  },
+  "footer": {
+    "copyright": "© 2025 Metro Yukthi. Government Transit Solutions.",
+    "built_for": "Built for Kochi Metro Rail Limited (KMRL)",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "accessibility": "Accessibility"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm"
+  },
+  "trust_badges": {
+    "reliability": {
+      "title": "Reliability",
+      "description": "Robust system architecture"
+    },
+    "safety": {
+      "title": "Safety",
+      "description": "Compliance-first approach"
+    },
+    "auditability": {
+      "title": "Auditability",
+      "description": "Complete trail tracking"
+    },
+    "cost_efficiency": {
+      "title": "Cost Efficiency",
+      "description": "Optimized resource usage"
+    },
+    "on_time_ops": {
+      "title": "On-time Ops",
+      "description": "Predictable scheduling"
+    }
+  }
+}
